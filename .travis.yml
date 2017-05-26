@@ -7,6 +7,8 @@ node_js:
   - "0.11"
   - "0.10"
   - "iojs"
+before_install:
+  - cd NodeJs
 install:
   - npm install
 script:
